@@ -34,3 +34,7 @@ app.use((err, req, res, next)=>{
     res.status(err.status || 500).send(err.stack);
 });
 
+
+// 200 - ES UNA RESPIESTA EXISTOSA
+// 404 - SIGNIFICA QUE LA URL NO EXISTE
+// 500 -  ERROR INTERNO DEL SERVIDOR
